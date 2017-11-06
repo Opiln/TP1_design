@@ -1,0 +1,105 @@
+h1 {
+    text-align:center;
+}
+
+ol {
+    list-style-type:none;
+    text-align:center;
+}
+
+footer {
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:white;
+    border-top:black solid 2px;
+}
+
+footer > div {
+    width:100px;
+    display:block;
+    margin: auto;
+    padding-top:10px;
+}
+
+.imgDivLeft {
+    width:300px;
+    height:380px;
+    float:left;
+    margin-left:100px;
+    border:black solid 2px;
+}
+
+.container {
+    height:350px;
+    width:300px;
+    padding:25px;
+    border:black solid 2px;
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.imgDivRight {
+    width:300px;
+    height:380px;
+    float:right;
+    margin-right:100px;
+    border:black solid 2px;
+}
+
+.comteDracula {
+    width:300px;
+    height:380px;
+}
+
+.vladTepes {
+    width:300px;
+    height:380px;
+}
+
+#liens {
+    display:block;
+    margin:0 auto;
+    width:150px;
+}
+
+#vlad {
+    width:150px;
+    float:left;
+    padding-right:5px;
+}
+
+@media screen and (max-width: 1180px){
+    
+    .megaContainer{
+        display:block;
+        width:304px;
+        margin: 0 auto;
+    }
+    .imgDivLeft {
+        width:300px;
+        height:380px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+    }
+    .container {
+        height:350px;
+        width:300px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+        text-align:center;
+    }
+    .imgDivRight {
+        width:300px;
+        height:380px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+    }
+}
