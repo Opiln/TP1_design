@@ -38,7 +38,7 @@ footer > div {
 }
 
 .container {
-    height:350px;
+    height:380px;
     width:300px;
     padding:25px;
     border:black solid 2px;
@@ -65,7 +65,7 @@ footer > div {
     height:380px;
 }
 
-#navbar {                       /* pour le ul */
+.navbar {                       /* pour le ul */
     list-style-type: none;
     margin :0;
     padding: 0;
@@ -76,19 +76,19 @@ footer > div {
     top: 0;
 }
 
-#navbar li{
+.navbar li{
 
     float: left;
 }
 
-#navbar li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-#navbar li a:hover {
+.navbar li a:hover {
     background-color: #111;
 }
 #vlad {
@@ -113,7 +113,7 @@ footer > div {
         clear:both;
     }
     .container {
-        height:350px;
+        height:380px;
         width:300px;
         display:block;
         margin:0 auto;
