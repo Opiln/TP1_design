@@ -23,7 +23,7 @@ footer {
 }
 
 footer > div {
-    width:100px;
+    width:150px;
     display:block;
     margin: auto;
     padding-top:10px;
@@ -40,11 +40,14 @@ footer > div {
 .container {
     height:380px;
     width:300px;
-    padding:25px;
+    padding-bottom:30px;
+    padding-right:25px;
+    padding-left:25px;
     border:black solid 2px;
     display:block;
     margin: 0 auto;
     text-align:center;
+    margin-bottom:50px;
 }
 
 .imgDivRight {
@@ -56,11 +59,6 @@ footer > div {
 }
 
 .comteDracula {
-    width:300px;
-    height:380px;
-}
-
-.vladTepes {
     width:300px;
     height:380px;
 }
@@ -91,11 +89,6 @@ footer > div {
 .navbar li a:hover {
     background-color: #111;
 }
-#vlad {
-    width:150px;
-    float:left;
-    padding-right:5px;
-}
 
 @media screen and (max-width: 1180px){
     
@@ -113,13 +106,14 @@ footer > div {
         clear:both;
     }
     .container {
-        height:380px;
-        width:300px;
+        height:430px;
+        width:270px;
         display:block;
         margin:0 auto;
         border:black solid 2px;
         clear:both;
         text-align:center;
+        margin-bottom:50px;
     }
     .imgDivRight {
         width:300px;
@@ -133,6 +127,12 @@ footer > div {
     h1 {
     text-align:center; 
     margin-top : 50%;
+    }
+    footer > div {
+        width:178px;
+        display:block;
+        margin: auto;
+        padding-top:10px;
     }
 }
 /* commentaire de test */
