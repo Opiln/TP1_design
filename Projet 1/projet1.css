@@ -88,10 +88,14 @@ footer > div {
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar li a:hover {
+.navbar li a:hover:not(.active) {
     background-color: #111;
 }
 
+.navbar li a.active {
+    background-color: #FF0000;
+    color: white;
+}
 @media screen and (max-width: 1180px){
     
     .megaContainer{
