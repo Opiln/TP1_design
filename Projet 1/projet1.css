@@ -98,7 +98,7 @@ footer > div {
     background-color: #FF0000;
     color: white;
 }
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 380px){
     
     .megaContainer{
         display:block;
@@ -135,7 +135,7 @@ footer > div {
 
     h1 {
     text-align:center; 
-    margin-top : 100%;
+    margin-top : 60%;
     }
     footer > div {
         width:178px;
@@ -144,4 +144,49 @@ footer > div {
         padding-top:10px;
     }
 }
-/* commentaire de test */
+
+@media screen and (max-width: 1180px) and (min-width:380px){
+    .megaContainer{
+        display:block;
+        width:304px;
+        margin: 0 auto;
+    }
+    .imgDivLeft {
+        width:300px;
+        height:380px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+    }
+    .container {
+        height:430px;
+        width:270px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+        text-align:center;
+        margin-bottom:50px;
+        background-color:white;
+    }
+    .imgDivRight {
+        width:300px;
+        height:380px;
+        display:block;
+        margin:0 auto;
+        border:black solid 2px;
+        clear:both;
+    }
+
+    h1 {
+    text-align:center; 
+    margin-top : 120px;
+    }
+    footer > div {
+        width:178px;
+        display:block;
+        margin: auto;
+        padding-top:10px;
+    }
+}
